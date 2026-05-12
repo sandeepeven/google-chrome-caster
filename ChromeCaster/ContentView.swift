@@ -2,20 +2,15 @@
 //  ContentView.swift
 //  ChromeCaster
 //
-//  Created by Sandeep Singh on 14/04/26.
-//
 
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var session = SessionManager()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        MainView(session: session)
+            .frame(minWidth: 420, minHeight: 320)
     }
 }
 

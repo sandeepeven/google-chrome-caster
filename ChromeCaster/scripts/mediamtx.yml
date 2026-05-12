@@ -1,0 +1,7 @@
+# Minimal MediaMTX config for ChromeCaster: ffmpeg publishes to path `live`.
+# Run from repo root:  ./mediamtx scripts/mediamtx.yml
+# (Download MediaMTX from https://github.com/bluenviron/mediamtx — place binary in PATH or project folder.)
+
+paths:
+  live:
+    source: publisher
