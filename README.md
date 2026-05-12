@@ -89,4 +89,4 @@ Allow incoming **TCP** on the **MediaMTX RTSP port** (default **8554**) from you
 
 ## License
 
-Add your preferred license here if the repository is public.
+This project is licensed under the [MIT License](LICENSE.md).
